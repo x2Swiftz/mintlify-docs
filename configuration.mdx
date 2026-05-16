@@ -1,0 +1,14 @@
+---
+title: "Configuration"
+description: "รวมตั้งค่าต่างๆในไฟล์ config.json"
+icon: "gear"
+---
+
+## ❗ สำหรับตัวรัน Seliware
+
+เวลาเปิดโปรแกรม Storm แล้วมันจะเปิด Seliware ให้อัตโนมัติ รวมถึงเวลาตัวรันมันหลุด ตัวโปรแกรมของเราจะรีสตาร์ทให้อัตโนมัติ โดยให้แก้ไขในไฟล์ `config.json` ให้ปรับจาก `false` เป็น `true`
+
+```json config.json
+  "auto_restart_seliware": true,
+  "auto_launch_seliware": true,
+```

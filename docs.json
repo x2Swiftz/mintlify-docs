@@ -1,0 +1,128 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Storm",
+  "colors": {
+    "primary": "#0b63f6",
+    "light": "#3b82f6",
+    "dark": "#030712"
+  },
+  "favicon": {
+    "light": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
+    "dark": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "home",
+              "reviews",
+              "key-activation",
+              "faq"
+            ]
+          },
+          {
+            "group": "How to use",
+            "pages": [
+              "quickstart-1",
+              "account-status",
+              "account-recovery",
+              "performance",
+              "roblox-installation",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "home",
+              "reviews",
+              "key-activation",
+              "faq"
+            ]
+          },
+          {
+            "group": "How to use",
+            "pages": [
+              "queue-settings",
+              "account-status",
+              "account-recovery",
+              "roblox-installation",
+              "performance",
+              "solutions",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
+              "home",
+              "reviews",
+              "key-activation",
+              "faq"
+            ]
+          },
+          {
+            "group": "How to use",
+            "pages": [
+              "",
+              "queue-settings",
+              "account-recovery",
+              "account-status",
+              "roblox-installation",
+              "performance",
+              "solutions",
+              "configuration"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://discord.gg/xenonhub"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/xenonhub",
+      "youtube": "https://www.youtube.com/@XenonHub"
+    }
+  },
+  "background": {
+    "decoration": "grid"
+  },
+  "thumbnails": {
+    "appearance": "dark"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "description": "This comprehensive resource provides everything you need to successfully use Storm Launchers, from initial setup to configuration."
+}
