@@ -79,6 +79,11 @@
               "configuration"
             ]
           }
+        ],
+        "pages": [
+          "home",
+          "reviews",
+          "faq"
         ]
       }
     ]
