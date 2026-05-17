@@ -21,6 +21,28 @@
             "pages": [
               "home",
               "reviews",
+              "faq",
+              "key-activation"
+            ]
+          },
+          {
+            "group": "How to use",
+            "pages": [
+              "quickstart",
+              "queue-settings",
+              "account-status",
+              "account-recovery",
+              "roblox-installation",
+              "performance",
+              "solutions",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "home",
+              "reviews",
               "key-activation",
               "faq"
             ]
@@ -79,18 +101,6 @@
               "configuration"
             ]
           }
-        ],
-        "pages": [
-          "home",
-          "key-activation",
-          "reviews",
-          "faq",
-          "quickstart",
-          "roblox-installation",
-          "configuration",
-          "performance",
-          "account-status",
-          "account-recovery"
         ]
       }
     ]
