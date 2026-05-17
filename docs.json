@@ -101,6 +101,19 @@
               "configuration"
             ]
           }
+        ],
+        "pages": [
+          "home",
+          "reviews",
+          "key-activation",
+          "quickstart",
+          "queue-settings",
+          "account-status",
+          "account-recovery",
+          "roblox-installation",
+          "solutions",
+          "performance",
+          "configuration"
         ]
       }
     ]
