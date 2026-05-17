@@ -82,8 +82,15 @@
         ],
         "pages": [
           "home",
+          "key-activation",
           "reviews",
-          "faq"
+          "faq",
+          "quickstart",
+          "roblox-installation",
+          "configuration",
+          "performance",
+          "account-status",
+          "account-recovery"
         ]
       }
     ]
