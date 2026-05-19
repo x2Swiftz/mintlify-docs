@@ -1,37 +1,10 @@
 ---
-title: "Solutions"
+title: "Storm Issues"
 icon: "book-bookmark"
+description: "รวมปัญหาต่างๆ ที่คุณใช้งานโปรแกรมแล้วเจอ"
 ---
 
-<ResponseField name="Hardware ID limit reached" type="คืออะไร">
-  คุณใช้คีย์เกินจำนวนที่คุณซื้อมา หากต้องการใช้เพิ่มอีกเครื่อง กรุณาซื้อคีย์ Storm Launcher เพิ่ม
-
-  <img
-    src="/images/Screenshot-2026-05-16-062636.png"
-    alt="Screenshot 2026 05 16 062636"
-    title="Screenshot 2026 05 16 062636"
-    className="mx-auto"
-    style={{ width:"46%" }}
-  />
-
-  <ResponseField name="Retrying" type="คืออะไร" default="Storm Console">
-    เวอร์ชั่น Roblox อาจจะไม่ตรงกับตัวรันที่คุณใช้งาน เพราะงั้นให้ทำการ Uninstall Roblox ก่อน
-
-    <img
-      src="/images/image.png"
-      alt="Image"
-      title="Image"
-      className="mx-auto"
-      style={{ width:"91%" }}
-    />
-
-    🔗 - [https://voltbz.net/](https://voltbz.net/)
-  </ResponseField>
-</ResponseField>
-
-## ⚠️ Troubleshooting
-
-รวมปัญหาต่างๆ ที่คุณใช้งานโปรแกรมแล้วเจอ
+### คลิ๊กที่ลูกศร ▶️ เพื่ออ่านวิธีแก้
 
 <Accordion title="⚡ โปรแกรม Storm ปิดเอง แก้ยังไง?">
   ห้ามเปิดหลายจอจนคอมสเปคของคุณเกินจะรับไหว ไม่งั้นโปรแกรมมันจะเด้งออก
@@ -40,6 +13,14 @@ icon: "book-bookmark"
 <Accordion title="✅  กด Start แล้วอยู่ดีๆมันปิดเองอัตโนมัติ แก้ยังไง?">
   อาจเป็นเพราะคุณใช้ตัวรัน Volt ซึ่งพักหลังๆ มันมีปัญหาเรื่องนี้บ่อย เพราะงั้นลองเปลี่ยนตัวรันดูหรืออาจเป็นเพราะว่า เวอร์ชั่น Roblox ของคุณอาจจะไม่ตรงกับตัวรันที่คุณใช้งาน ให้ทำการถอนติดตั้ง Roblox ก่อน โดยวิธีการถอนติดตั้ง ให้คลิ๊กด้านล่างนี้เลย
 
+  <img
+    src="/images/Screenshot-2026-05-19-074732.png"
+    alt="Screenshot 2026 05 19 074732"
+    title="Screenshot 2026 05 19 074732"
+    className="mx-auto"
+    style={{ width:"49%" }}
+  />
+
   <Card title="Roblox Installation" icon="computer-speaker" horizontal href="/roblox-installation">
     คลิ๊กที่นี่ เพื่อดูวิธีถอนติดตั้ง Roblox
   </Card>
@@ -47,4 +28,24 @@ icon: "book-bookmark"
 
 <Accordion title="💻  Hardware ID limit reached">
   คุณใช้คีย์เกินจำนวนที่คุณซื้อมา หากต้องการเพิ่มอีกเครื่องให้ทำการซื้อคีย์เพิ่มอีก 1 อันแต่ถ้าไม่อยากเสียตังค์เยอะ เพราะจะใช้แค่เครื่องเดียวให้แอดมิน Reset HWID ให้ โดยมีค่าดำเนินการอยู่ที่คีย์ละ 100 บาท
+
+  <img
+    src="/images/download.png"
+    alt="Download"
+    title="Download"
+    className="mx-auto"
+    style={{ width:"49%" }}
+  />
+</Accordion>
+
+<Accordion title="🌐  ใช้โปรแกรม Storm แล้วขึ้นเน็ตหลุด (Error Code: 277)">
+  ให้ทำการเปิดไฟล์ `config.json` ในโฟลเดอร์ของ Storm และหาคำว่า `use_presence` แล้วเปลี่ยนคำด้านล่างจากคำว่า `true` เป็น `false` แทน จากนั้นให้กด Crtl \+ S เพื่อทำการเซฟไฟล์ที่คุณแก้ไป ทีนี้อย่าลืมเอาไฟล์ `api.luau` ที่อยู่ในโฟลเดอร์ Storm เอาไปใส่ใน AutoExec ของตัวรันที่คุณใช้งานด้วย
+
+  ```javascript
+  "use_presence": true,
+  
+  // ตัวอย่างหลังแก้แล้วต้องเป็นแบบนี้
+  
+  "use_presence": false,
+  ```
 </Accordion>
