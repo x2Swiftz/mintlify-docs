@@ -155,7 +155,8 @@
     "decoration": "grid"
   },
   "thumbnails": {
-    "appearance": "dark"
+    "appearance": "dark",
+    "background": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU"
   },
   "appearance": {
     "default": "dark"
