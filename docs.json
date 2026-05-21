@@ -7,10 +7,7 @@
     "light": "#3b82f6",
     "dark": "#030712"
   },
-  "favicon": {
-    "light": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
-    "dark": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU"
-  },
+  "favicon": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
   "navigation": {
     "tabs": [
       {
@@ -110,6 +107,7 @@
           "solutions",
           "queue-settings",
           "game-settings",
+          "windows-settings",
           "account-status",
           "account-recovery",
           "roblox-installation",
