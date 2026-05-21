@@ -113,7 +113,8 @@
           "roblox-installation",
           "performance",
           "storm-logs",
-          "configuration"
+          "configuration",
+          "xenon-solver"
         ]
       }
     ]
