@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Storm Launcher",
         "groups": [
           {
             "group": "Get Started",
@@ -103,7 +103,7 @@
           "home",
           "reviews",
           "key-activation",
-          "quickstart",
+          "get-started",
           "solutions",
           "queue-settings",
           "game-settings",
@@ -112,9 +112,19 @@
           "account-recovery",
           "roblox-installation",
           "performance",
-          "storm-logs",
-          "configuration",
-          "xenon-solver"
+          "configuration"
+        ]
+      },
+      {
+        "tab": "Storm Logs",
+        "pages": [
+          "storm-logs"
+        ]
+      },
+      {
+        "tab": "Xenon Hub",
+        "pages": [
+          "xenon-tools"
         ]
       }
     ]
