@@ -108,10 +108,10 @@
           "queue-settings",
           "game-settings",
           "windows-settings",
+          "performance-settings",
           "account-status",
           "account-recovery",
           "roblox-installation",
-          "performance",
           "configuration"
         ]
       },
