@@ -1,0 +1,115 @@
+---
+title: "Storm Presents"
+icon: "download"
+description: "รวม Present ตั้งๆ เผื่อใครขี้เกียจเซ็ตค่าต่างๆภายในโปรแกรม Storm Launchers"
+---
+
+<Card title="Kaitun Mode" icon="fire" horizontal href="/development">
+  ตั้งค่าทั่วไปสำหรับคนเปิดไก่ตัน/เปิดหลายจอฟาร์ม
+</Card>
+
+## ⤵️  วิธีใส่พรีเซ็ต Kaitun Mode
+
+<Steps>
+  <Step title="ปิดโปรแกรม Storm Launcher">
+    ปิด Roblox ให้หมดด้วย
+  </Step>
+  <Step title="ไปที่โฟลเดอร์โปรแกรม Storm">
+    แล้วเปิดไฟล์ `config.json`
+  </Step>
+  <Step title="ให้ลบข้อความในไฟล์นั้นให้หมด">
+    - โดยการกด Crtl \+ A ทีนี้ก็คัดลอกโค้ดด้านล่างนี้ได้เลย
+
+    - จากนั้น Crtl \+ V เพื่อวางโค้ดลงไป 
+    - และกด Crtl \+ S เพื่อเซฟไฟล์
+  </Step>
+</Steps>
+
+```typescript
+{
+  "duration": 5,
+  "place_id": null,
+  "private_link_code": null,
+  "auto_create_private_server": false,
+  "job_id": null,
+  "delay": 15,
+  "max_concurrent": 30,
+  "performance_mode": true,
+  "auto_minimize": true,
+  "auto_minimize_delay": 60,
+  "multi_instance": true,
+  "use_presence": false,
+  "auto_downgrade": false,
+  "roblox_version_hash": null,
+  "auto_restart_seliware": false,
+  "auto_launch_seliware": false,
+  "auto_restart_seliware_window_secs": null,
+  "auto_restart_isaeva": false,
+  "auto_launch_isaeva": false,
+  "fps": {
+    "enabled": true,
+    "limit": 15
+  },
+  "clear_ram": true,
+  "network_throttle": {
+    "enabled": false,
+    "max_bandwidth_kbps": 512
+  },
+  "recovery": {
+    "enabled": false,
+    "api_key": "",
+    "provider": "firstddc",
+    "api_keys": {}
+  },
+  "captcha_solver": {
+    "enabled": false,
+    "api_key": "",
+    "provider": "xenon",
+    "api_keys": {
+      "xenon": ""
+    }
+  },
+  "captcha_handling": {
+    "skip_launching": true,
+    "skip_captcha": false
+  },
+  "locked_handling": {
+    "skip_launching": true,
+    "skip_locked": true
+  },
+  "age_check_handling": {
+    "skip_age_check": true
+  },
+  "face_unlock": {
+    "enabled": false,
+    "api_key": "",
+    "provider": "xenon",
+    "api_keys": {}
+  },
+  "stormlogs_sync": {
+    "enabled": true,
+    "api_key": "",
+    "apply_deletions": false
+  },
+  "smart_server": {
+    "enabled": true
+  },
+  "lite_mode": false,
+  "auto_backfill_idle": true,
+  "auto_close": {
+    "enabled": false,
+    "interval_minutes": 120
+  },
+  "auto_block": {
+    "enabled": false,
+    "recheck_interval_secs": 300
+  },
+  "windows": {
+    "unlock_size": true,
+    "auto_arrange": true,
+    "auto_resize": true,
+    "size_grid": "10x10",
+    "cell_size": "200x150"
+  }
+}
+```
