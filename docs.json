@@ -125,7 +125,10 @@
       {
         "tab": "Xenon Hub",
         "pages": [
-          "xenon-tools"
+          "xenon-tools",
+          "api-key",
+          "file",
+          "captcha-solvers"
         ]
       }
     ]
