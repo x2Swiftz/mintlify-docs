@@ -7,7 +7,10 @@
     "light": "#3b82f6",
     "dark": "#030712"
   },
-  "favicon": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
+  "favicon": {
+    "light": "/images/XNHEVOLOGO3.png",
+    "dark": "/images/XNHEVOLOGO3.png"
+  },
   "navigation": {
     "tabs": [
       {
@@ -144,7 +147,10 @@
       }
     ]
   },
-  "logo": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
+  "logo": {
+    "light": "/images/XNHEVOLOGO3.png",
+    "dark": "/images/XNHEVOLOGO3.png"
+  },
   "navbar": {
     "links": [
       {
