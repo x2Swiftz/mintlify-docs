@@ -14,6 +14,35 @@
         "tab": "Storm Launcher",
         "groups": [
           {
+            "group": "เริ่มต้นใช้งาน",
+            "pages": [
+              "home",
+              "reviews",
+              "key-activation",
+              "get-started",
+              "storm-presents"
+            ]
+          },
+          {
+            "group": "วิธีแก้ปัญหาต่างๆ",
+            "pages": [
+              "solutions",
+              "account-status"
+            ]
+          },
+          {
+            "group": "แนะนำการตั้งค่า",
+            "pages": [
+              "queue-settings",
+              "game-settings",
+              "windows-settings",
+              "roblox-installation",
+              "performance-settings",
+              "account-recovery",
+              "configuration"
+            ]
+          },
+          {
             "group": "Get Started",
             "pages": [
               "home",
@@ -98,28 +127,17 @@
               "configuration"
             ]
           }
-        ],
-        "pages": [
-          "home",
-          "reviews",
-          "key-activation",
-          "get-started",
-          "storm-presents",
-          "solutions",
-          "queue-settings",
-          "game-settings",
-          "windows-settings",
-          "performance-settings",
-          "account-status",
-          "account-recovery",
-          "roblox-installation",
-          "configuration"
         ]
       },
       {
         "tab": "Storm Logs",
-        "pages": [
-          "storm-logs"
+        "groups": [
+          {
+            "group": "Main",
+            "pages": [
+              "storm-logs"
+            ]
+          }
         ]
       },
       {
