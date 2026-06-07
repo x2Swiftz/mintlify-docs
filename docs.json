@@ -7,44 +7,12 @@
     "light": "#3b82f6",
     "dark": "#030712"
   },
-  "favicon": {
-    "light": "/images/XNHEVOLOGO3.png",
-    "dark": "/images/XNHEVOLOGO3.png"
-  },
+  "favicon": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
   "navigation": {
     "tabs": [
       {
         "tab": "Storm Launcher",
         "groups": [
-          {
-            "group": "เริ่มต้นใช้งาน",
-            "pages": [
-              "home",
-              "reviews",
-              "key-activation",
-              "get-started",
-              "storm-presents"
-            ]
-          },
-          {
-            "group": "วิธีแก้ปัญหาต่างๆ",
-            "pages": [
-              "solutions",
-              "account-status"
-            ]
-          },
-          {
-            "group": "แนะนำการตั้งค่า",
-            "pages": [
-              "queue-settings",
-              "game-settings",
-              "windows-settings",
-              "roblox-installation",
-              "performance-settings",
-              "account-recovery",
-              "configuration"
-            ]
-          },
           {
             "group": "Get Started",
             "pages": [
@@ -130,17 +98,28 @@
               "configuration"
             ]
           }
+        ],
+        "pages": [
+          "home",
+          "reviews",
+          "key-activation",
+          "get-started",
+          "storm-presents",
+          "solutions",
+          "queue-settings",
+          "game-settings",
+          "windows-settings",
+          "performance-settings",
+          "account-status",
+          "account-recovery",
+          "roblox-installation",
+          "configuration"
         ]
       },
       {
         "tab": "Storm Logs",
-        "groups": [
-          {
-            "group": "Main",
-            "pages": [
-              "storm-logs"
-            ]
-          }
+        "pages": [
+          "storm-logs"
         ]
       },
       {
@@ -165,10 +144,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/images/XNHEVOLOGO3.png",
-    "dark": "/images/XNHEVOLOGO3.png"
-  },
+  "logo": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU",
   "navbar": {
     "links": [
       {
