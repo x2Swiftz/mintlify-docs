@@ -124,11 +124,22 @@
       },
       {
         "tab": "Xenon Hub",
-        "pages": [
-          "xenon-tools",
-          "api-key",
-          "file",
-          "captcha-solvers"
+        "groups": [
+          {
+            "group": "Untitled Boxing",
+            "pages": [
+              "UBG-Features"
+            ]
+          },
+          {
+            "group": "Xenon Tools",
+            "pages": [
+              "xenon-tools",
+              "api-key",
+              "file",
+              "captcha-solvers"
+            ]
+          }
         ]
       }
     ]
