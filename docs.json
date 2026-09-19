@@ -129,6 +129,20 @@
         "tab": "Xenon Hub",
         "groups": [
           {
+            "group": "Xenon Hub",
+            "pages": [
+              "redeem-key",
+              "get-scripts",
+              "reset-hwid"
+            ]
+          },
+          {
+            "group": "Project Slayers 2",
+            "pages": [
+              "ps2-introduction"
+            ]
+          },
+          {
             "group": "Untitled Boxing",
             "pages": [
               "ubg-introduction",
