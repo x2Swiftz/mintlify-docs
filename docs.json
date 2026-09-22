@@ -200,7 +200,9 @@
   },
   "thumbnails": {
     "appearance": "dark",
-    "background": "https://1doc5ka3vw.ufs.sh/f/bXMlB2FPxcY02REaaRGcq4zxnu6YKOjLeZ1SVEXADGhr7lTU"
+    "fonts": {
+      "family": "Sora"
+    }
   },
   "appearance": {
     "default": "dark"
