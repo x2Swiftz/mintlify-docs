@@ -133,14 +133,15 @@
             "pages": [
               "redeem-key",
               "get-scripts",
-              "reset-hwid"
+              "reset-hwid",
+              "executor"
             ]
           },
           {
             "group": "Project Slayers 2",
             "pages": [
               "ps2-introduction",
-              "ps2-plans"
+              "ps2-autofarm"
             ]
           },
           {
