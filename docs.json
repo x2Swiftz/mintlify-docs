@@ -23,6 +23,7 @@
               "redeem-key",
               "get-scripts",
               "reset-hwid",
+              "download",
               "auto-exec",
               "executor"
             ]
