@@ -150,20 +150,39 @@
           }
         ],
         "pages": [
-          "home",
-          "reviews",
-          "key-activation",
-          "get-started",
-          "storm-presents",
-          "solutions",
-          "queue-settings",
-          "game-settings",
-          "windows-settings",
-          "performance-settings",
-          "account-status",
-          "account-recovery",
-          "roblox-installation",
-          "configuration"
+          {
+            "group": "ยินดีต้อนรับ",
+            "pages": [
+              "home",
+              "reviews"
+            ]
+          },
+          {
+            "group": "เริ่มต้นใช้งาน",
+            "pages": [
+              "key-activation",
+              "get-started"
+            ]
+          },
+          {
+            "group": "วิธีแก้ปัญหาต่างๆ",
+            "pages": [
+              "solutions",
+              "account-status"
+            ]
+          },
+          {
+            "group": "ตั้งค่าในโปรแกรม",
+            "pages": [
+              "queue-settings",
+              "game-settings",
+              "windows-settings",
+              "roblox-installation",
+              "performance-settings",
+              "account-recovery"
+            ]
+          },
+          "storm-presents"
         ]
       },
       {
