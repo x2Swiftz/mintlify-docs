@@ -24,20 +24,19 @@
               "get-scripts",
               "reset-hwid",
               "download",
-              "auto-exec",
-              "executor"
+              "auto-exec"
             ]
           },
           {
             "group": "Project Slayers 2",
             "pages": [
               "ps2-introduction",
-              "ps2-autofarm",
-              "ps2-ouwigahara",
-              "ps2-issues",
+              "executor",
               "ps2-features",
               "ps2-info",
-              "ps2-configs"
+              "ps2-autofarm",
+              "ps2-ouwigahara",
+              "ps2-issues"
             ]
           },
           {
