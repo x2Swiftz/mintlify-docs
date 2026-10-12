@@ -31,12 +31,11 @@
             "group": "Project Slayers 2",
             "pages": [
               "ps2-introduction",
+              "ps2-autofarm",
               "executor",
               "ps2-features",
-              "ps2-info",
-              "ps2-autofarm",
               "ps2-ouwigahara",
-              "ps2-issues"
+              "ps2-info"
             ]
           },
           {
