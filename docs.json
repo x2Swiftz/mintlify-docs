@@ -32,10 +32,10 @@
             "pages": [
               "ps2-introduction",
               "ps2-autofarm",
-              "executor",
               "ps2-features",
               "ps2-ouwigahara",
-              "ps2-info"
+              "ps2-info",
+              "executor"
             ]
           },
           {
