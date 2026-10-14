@@ -8,15 +8,7 @@ description: "รวมปัญหาต่างๆ ที่คุณใช�
 
 หากไม่เจอปัญหาที่คุณพบ กรุณาติดต่อแอดมินผ่าน Discord ได้เลย
 
-<Accordion title="2️⃣  เปิด 2 จอแล้วหลุด 1 จอแก้ยังไง?">
-  Troubleshoot → Reinstall ใหม่อีกครั้ง หรือดูคลิปด้านล่างนี้
-
-  แต่ปัญหาที่คนส่วนใหญ่เป็นเพราะว่า Roblox มันอัปเดตและมันไม่ได้อัปเดตตามตัวรันที่ใช้งาน มันเลยหลุดนั่นเอง เพราะฉะนั้นไป Reinstall Roblox ใหม่ผ่าน Storm Launcher ได้เลยครับ
-
-  <iframe src="https://www.youtube.com/embed/bBXvVStXhHs" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
-</Accordion>
-
-<Accordion title="💻  ล็อกอินแล้วขึ้น Hardware ID limit reached">
+<Accordion title="⚙️  ล็อกอินแล้วขึ้น Hardware ID limit reached">
   คุณใช้คีย์เกินจำนวนที่คุณซื้อมา หากต้องการเพิ่มอีกเครื่องให้ทำการซื้อคีย์เพิ่มอีก 1 อันแต่ 
 
   แต่ถ้าไม่อยากเสียตังค์และแค่ย้ายเครื่องเฉยๆ ให้พิมพ์คำสั่ง `/reset` ในดิสคอร์ด Xenon ได้เลย
@@ -28,18 +20,39 @@ description: "รวมปัญหาต่างๆ ที่คุณใช�
   ![Screenshot 2026 10 06 060118](/images/Screenshot-2026-10-06-060118.png "Screenshot 2026 10 06 060118")
 </Accordion>
 
-<Accordion title="❓ ทำไมโปรแกรม Storm ถึงไม่รีจอยให้">
-  เป็นเพราะว่า คุณไม่ได้ใส่สคริปต์ \`api.lua\` ลงไปใน AutoExec ของตัวรันนั่นเอง
-
-  <Frame>
-    ![Screenshot 2026 06 07 083739](/images/Screenshot-2026-06-07-083739.png)
-  </Frame>
+<Accordion title="✅  กด Start แล้วอยู่ดีๆมันปิดเองอัตโนมัติ แก้ยังไง?">
+  1. อาจเป็นเพราะว่าคุณยังไม่ได้ใส่ไฟล์ `api.luau` ไปใน AutoExec ของตัวรัน
+  2. ไปที่แท็บ `Troubleshooting` → `Reinstall` ดูอีกรอบเผื่อเวอร์ชั่น Roblox ไม่ตรงกับตัวรัน
+  3. อาจเป็นเพราะ RAM Limit ที่คุณตั้งไว้มันเลยเกมหลุด / อาจเป็นเพราะ Auto Close ของคุณ
 </Accordion>
 
 <Accordion title="📺 วิธีเปิด 2 แมพ 2 จอทำยังไง?">
   <iframe src="https://www.youtube.com/embed/u18yaymeSXk" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
 
   <Frame>
+
+  </Frame>
+</Accordion>
+
+<Accordion title="2️⃣  เปิด 2 จอแล้วหลุด 1 จอแก้ยังไง?">
+  Troubleshoot → Reinstall ใหม่อีกครั้ง หรือดูคลิปด้านล่างนี้
+
+  แต่ปัญหาที่คนส่วนใหญ่เป็นเพราะว่า Roblox มันอัปเดตและมันไม่ได้อัปเดตตามตัวรันที่ใช้งาน มันเลยหลุดนั่นเอง เพราะฉะนั้นไป Reinstall Roblox ใหม่ผ่าน Storm Launcher ได้เลยครับ
+
+  <iframe src="https://www.youtube.com/embed/bBXvVStXhHs" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+</Accordion>
+
+<Accordion title="🔃  กด Start แล้วมันค้างอยู่สถานะ Queue">
+  เพราะคุณตั้งค่าให้มันเป็น `Per-Account` เองแล้วไม่ตั้งค่าให้มันเลือก Server หรือ Game มันเลยไม่รู้ว่าจะเข้ายังไง
+
+  ![Server,game 1](/images/server,game-1.png "Server,game 1")
+</Accordion>
+
+<Accordion title="🔄️ ทำไมโปรแกรม Storm ถึงไม่รีจอยให้">
+  เป็นเพราะว่า คุณไม่ได้ใส่สคริปต์ \`api.lua\` ลงไปใน AutoExec ของตัวรันนั่นเอง
+
+  <Frame>
+    ![Screenshot 2026 06 07 083739](/images/Screenshot-2026-06-07-083739.png)
   </Frame>
 </Accordion>
 
@@ -51,24 +64,6 @@ description: "รวมปัญหาต่างๆ ที่คุณใช�
   🔗 [**<u>https://m1r.ai/PMRXU.rar</u>**](https://m1r.ai/PMRXU.rar)
 
   หากตั้ง Setup โปรแกรม Storm ใหม่เรียบร้อยแล้วให้ คลิ๊กขวาทที่ไฟล์ `RazerSynapse.exe` และกด Run as Administrator 
-</Accordion>
-
-<Accordion title="✅  กด Start แล้วอยู่ดีๆมันปิดเองอัตโนมัติ แก้ยังไง?">
-  1. ให้ลองรีสตาร์ทคอมรอบนึง แล้วลองใหม่ดู อาจเป็นเพราะคุณเล่น Roblox มาก่อนหน้านี้มันเลยมีปัญหา
-
-  2. อาจเป็นเพราะคุณใช้ตัวรัน Volt ซึ่งพักหลังๆ มันมีปัญหาเรื่องนี้บ่อย เพราะงั้นลองเปลี่ยนตัวรันดูหรืออาจเป็นเพราะว่า เวอร์ชั่น Roblox ของคุณอาจจะไม่ตรงกับตัวรันที่คุณใช้งาน ให้ทำการถอนติดตั้ง Roblox ก่อน โดยวิธีการถอนติดตั้ง ให้คลิ๊กด้านล่างนี้เลย
-
-  <img
-    src="/images/Screenshot-2026-05-19-074732.png"
-    alt="Screenshot 2026 05 19 074732"
-    title="Screenshot 2026 05 19 074732"
-    className="mx-auto"
-    style={{ width:"49%" }}
-  />
-
-  <Card title="Roblox Installation" icon="computer-speaker" horizontal href="/roblox-installation">
-    คลิ๊กที่นี่ เพื่อดูวิธีถอนติดตั้ง Roblox
-  </Card>
 </Accordion>
 
 <Accordion title="🌐  ใช้โปรแกรม Storm แล้วขึ้นเน็ตหลุด (Error Code: 277)">
